@@ -24,11 +24,6 @@ const View = () => {
             .catch(err => { console.log(err) })
     }
 
-    // const likePet = () => {
-    //     
-    //     setLiked(true)
-    // }
-
     const likePet = () => {
         let newLikes = pet.likes+1
         let updatedPet = {
